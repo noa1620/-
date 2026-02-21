@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="nospidercleaner"
+version="${file.jarVersion}"
+displayName="No Spider Cleaner"
+authors="codex"
+description='''
+Prevents spider spawns and removes cobweb/spawner blocks.
+'''
+
+[[dependencies.nospidercleaner]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nospidercleaner]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
